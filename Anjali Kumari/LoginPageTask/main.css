@@ -1,0 +1,149 @@
+body{
+
+	position: cover;
+	font-weight: 200;
+	
+}
+* {
+  box-sizing: border-box;
+}
+h3{
+	text-align: center;
+	color: white;
+}
+.bg{
+ background:url(image/new8.jpg) no-repeat;
+ height: 100%;
+ width: 100%;
+
+}
+.age{
+	color: white;
+	margin-top: -10px;
+	
+	
+}
+.logo{
+  width: 100px;
+}
+#login{
+	
+	padding: 30px ;
+	margin-top: 50px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 10px;
+
+	-webkit-box-shadow: -5px 2px 64px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 2px 64px 8px rgba(0,0,0,0.75);
+    box-shadow: -5px 2px 64px 15px rgba(0,0,0,0.75);
+
+
+}
+img{
+	width: 100px;
+	margin: auto;
+
+}
+
+#message{
+  border: 3px solid #7158e2;
+  transition: 0.25s;
+  height: 80px;
+  border-radius:15px;
+  width: 300px;
+  margin-top: -10px;
+  
+}
+
+#message:focus{
+  width: 320px;
+  border-color: #18dcff;
+}
+.form-control{
+ border:2px solid #7158e2;
+ border-radius: 20px;
+ width: 300px;
+ margin-top: 12px;
+
+ text-align: center;
+
+}
+
+.form-control:focus{
+  width: 350px;
+   border-color: #18dcff;
+  }
+
+
+.text-input{
+   
+  text-align: center;
+  border: 2px solid #7158e2 ;
+  padding: 5px ;
+  width: 120px;
+  outline: none;
+  transition: 0.25s;
+  border-radius: 25px;
+  color: black;
+
+}
+.text-input:focus{
+  width: 160px;
+  border-color: #18dcff;
+}
+
+.btn{
+ 
+  background: none;
+  display: block;
+  margin: 10px auto;
+  position: center;
+  text-align: center;
+  border: 2px solid #7158e2;
+  color: white;
+  padding:8px;
+  border-radius: 25px;
+  transition: 0.25s;
+  cursor: pointer;
+  width: 200px;
+
+  	-webkit-box-shadow: -1px 4px 64px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 64px 11px rgba(0,0,0,0.75);
+    box-shadow: -1px 2px 64px 11px rgba(0,0,0,0.75);
+
+
+
+}
+
+.btn:hover{
+ 
+  border: 2px solid #48dbfb;
+  color: yellow;
+  width: 220px;
+  background-color: green;
+
+}
+
+
+/*Add Icon using fontawesome*/
+.fa{
+	
+	margin-top: -30px;
+	position: absolute;
+	margin-left: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+

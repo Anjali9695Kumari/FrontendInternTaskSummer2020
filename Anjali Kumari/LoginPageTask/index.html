@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" media="screen"  href="main.css">
+
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<script src="main.js"></script>
+</head>
+
+<body class="bg"  > 
+	<img src="https://incubateind.com/images/IncubateIND%20Black.png" class="logo " alt="">
+	<div class="container-fluid " onsubmit="return matchpass();">
+		<div class="row">
+			<div class="col-md-4 col-sm-4 col-xs-12"></div>
+
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<form id="login" name="myform" action="#" onsubmit="return validateemail();" >
+					<h3> Enter Your Details</h3>
+					<img class="img img-responsive rounded-circle mx-auto d-block" src="image/user.gif">
+
+					<div class="form-group icon">
+						<input type="text" title="username" placeholder="user name" class="form-control w-100"/>    	<i class="fa fa-user-o" aria-hidden="true"></i>
+					</div>	
+					<div class="form-group ">
+						<input type="text" name="num" placeholder="phone number" class="form-control w-100" required="phone number" maxlength="10" onkeypress="return isNumberKey(event)"  >
+						<i class="fa fa-mobile" aria-hidden="true" style="height: 180px;"></i>
+					</div>	
+					<div class="form-group icon">
+						<input type="text" name="email" placeholder="email" class="form-control w-100" required="email"/> <i class="fa fa-envelope-o" aria-hidden="true"></i>
+					</div>	
+					<div class="form-group icon"> 
+						<div class="row"> 
+							<div class="col-md-12">
+								<input type="password" id="password" placeholder="password" class="text-input w-100" required="password" name="password" style="margin-bottom: 10px; ">
+								   <i class="fa fa-unlock-alt" aria-hidden="true "style="margin-left: 18px;position: absolute;"></i>
+								<input type="password" id="cnfpassword" placeholder="confirm password"  class="text-input w-100" name="password2"  required="password">
+
+							</div> 
+                         
+						</div>
+						
+					</div>
+
+					<div class=" form-group age">
+						<label ><b>Age</b>
+							<input type="radio" id="above" name="age" value="above">
+							<label for="above"><b>Above 18</b></label>
+							<input type="radio" id="below" name="age" value="below">
+							<label for="below" ><b>Below 18</b></label>
+						</label>
+
+
+                       <!-- Message Fields-->
+						<textarea name="message" id="message" cols="35" rows="4" class="form-control w-100"
+						placeholder="enter message"></textarea >
+
+						<button type="submit" value="submit" class="btn  btn-block btn-responsive w-100" >Log In</button>
+					</div>
+
+
+				</form>
+				<div class="col-md-4 col-sm-4 col-xs-12"></div>
+			
+			</div>
+
+		</div>
+	</div>
+           					<!-- Beautify Ends --> 
+
+</body>
+</html>
